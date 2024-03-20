@@ -23,7 +23,8 @@
 
     @else
     <h1>THIS IS ADMIN PAGE</h1>
-    <div style="border:3px solid black;">
+    <a href="{{ route('user') }}" style="text-decoration: none; color:white; background-color:black; border: 1px solid red">Go to User Login</a>
+    <div style="margin-top: 20px; border:3px solid black;">
     <h2>Register as User</h2>
     <form action ="/register" method="POST">
         @csrf

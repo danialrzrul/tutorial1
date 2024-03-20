@@ -26,3 +26,12 @@ Route::post('/create-post', [PostController::class, 'createPost']);
 Route::get('/edit-post/{post}', [PostController::class, 'editPost']);
 Route::put('/edit-post/{post}', [PostController::class, 'updatePost']);
 Route::delete('/delete-post/{post}', [PostController::class, 'deletePost']);
+
+//link redirect
+Route::get('/admin', function () {
+    return view('admin_login');
+})->name('admin');
+
+Route::get('/user', function () {
+    return view('form');
+})->name('user');

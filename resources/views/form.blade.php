@@ -49,8 +49,8 @@
 
     @else
     <h1 class="header" style="textcen">THIS IS USER LOGIN PAGE</h1>
-   <!-- <a href="/admin_login"><h4>Button</h4></a> -->
-    <div style="border:3px solid black;">
+    <a href="{{ route('admin') }}" style="text-decoration: none; color:white; background-color:black; border: 1px solid red">Go to Admin Page</a>
+    <div style="margin-top: 20px; border:3px solid black;">
     <h2>Register as User</h2>
     <form action ="/register" method="POST">
         @csrf
