@@ -1,0 +1,12 @@
+html, body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    }
+    
+    .submit{
+        width: 00px;
+    }
